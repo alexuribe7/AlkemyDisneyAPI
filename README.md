@@ -9,7 +9,6 @@ Requerimientos técnicos
 
 1. Modelado de Base de Datos (50%  Se crearon las tablas y se realizó una relación entre la tabla Personajes y Género)
 
-
 2. Autenticación de Usuarios (50%  Solo se creó el login(tabla UserInfo), una tabla que guarda información del usuario incluyendo su usuario y contraseña con el cual se realiza la autorización y recolección del token.  Pendiente el registro).
 
 3. Listado de Personajes (Se utilizó un DTO de la clase PersonajesController y Automapper)
@@ -36,6 +35,9 @@ El endpoint deberá ser: ● GET /movies
 
 11. NO
 
+
+POSTMAN:
+https://martian-escape-893546.postman.co/workspace/Team-Workspace~9786e0b3-51c8-49a6-8285-43a81f48a07f/request/22043782-81598b07-87de-410e-9e57-50c636baa4cf
 
 -------------------------------------------------------------------
 
@@ -69,36 +71,6 @@ Pruebas Con POSTMAN
 
 7	Configuration, security whith JWT
 7.1	Microsoft.AspNetCore.Authentication.JwtBearer
-
-
-
-Links que me ayudaron:
-
-https://www.youtube.com/watch?v=8e-30LJb97g
-https://bravedeveloper.com/2022/04/22/creando-un-api-restful-completo-con-net-core-para-un-sistema-crm-desde-cero-1-de-5/
-https://bravedeveloper.com/2021/08/18/como-aplicar-seguridad-a-tu-api-mediante-json-web-token-jwt/
-https://www.youtube.com/watch?v=fYDSqXfcF68
-https://www.c-sharpcorner.com/article/how-to-implement-jwt-authentication-in-web-api-using-net-6-0-asp-net-core/
-https://ardalis.com/web-api-dto-considerations/
-https://www.entityframeworktutorial.net/code-first/configure-one-to-many-relationship-in-code-first.aspx#conventions-for-one-to-many-ef6
-
-
-Packages:
-  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
-    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-
 
 
 
