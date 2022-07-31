@@ -72,5 +72,33 @@ Pruebas Con POSTMAN
 
 
 
+Links que me ayudaron:
+
+https://www.youtube.com/watch?v=8e-30LJb97g
+https://bravedeveloper.com/2022/04/22/creando-un-api-restful-completo-con-net-core-para-un-sistema-crm-desde-cero-1-de-5/
+https://bravedeveloper.com/2021/08/18/como-aplicar-seguridad-a-tu-api-mediante-json-web-token-jwt/
+https://www.youtube.com/watch?v=fYDSqXfcF68
+https://www.c-sharpcorner.com/article/how-to-implement-jwt-authentication-in-web-api-using-net-6-0-asp-net-core/
+https://ardalis.com/web-api-dto-considerations/
+https://www.entityframeworktutorial.net/code-first/configure-one-to-many-relationship-in-code-first.aspx#conventions-for-one-to-many-ef6
+
+
+Packages:
+  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+
+
 
 
