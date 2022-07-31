@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisneyAPI", "DisneyAPI\DisneyAPI.csproj", "{82866F14-2684-4A4D-860B-A666F83118D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82866F14-2684-4A4D-860B-A666F83118D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82866F14-2684-4A4D-860B-A666F83118D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82866F14-2684-4A4D-860B-A666F83118D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82866F14-2684-4A4D-860B-A666F83118D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42D88D7F-242F-411E-B091-5228BA4F4235}
+	EndGlobalSection
+EndGlobal
